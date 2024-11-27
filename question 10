@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int i,n,s;
+printf("Enter the number");
+scanf("%d",&n);
+i=0;
+s=n;
+while(s!=0)
+{
+s=s/10;
+i++;
+}
+printf("Length of %d is %d",n,i);
+return 0;
+}

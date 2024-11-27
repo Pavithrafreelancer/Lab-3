@@ -9,12 +9,12 @@ sp=0;
 s=1;
 printf("0 1 ");
 while(i<n-2)
-
 {
 p=s+sp;
 printf("%d ",p);
 sp=s;
 s=p;
 i++;
+}
 return 0;
  }

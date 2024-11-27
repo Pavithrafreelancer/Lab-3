@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int n,i,s,sp,p;
+printf("Enter a value");
+scanf("%d",&n);
+i=0;
+sp=0;
+s=1;
+printf("0 1 ");
+while(i<n-2)
+
+{
+p=s+sp;
+printf("%d ",p);
+sp=s;
+s=p;
+i++;
+return 0;
+ }
